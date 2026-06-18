@@ -19,13 +19,11 @@ import deno from '../app/assets/svg/skills/deno.svg';
 import django from '../app/assets/svg/skills/django.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
 import fastify from '../app/assets/svg/skills/fastify.svg';
-import figma from '../app/assets/svg/skills/figma.svg';
 import firebase from '../app/assets/svg/skills/firebase.svg';
 import flutter from '../app/assets/svg/skills/flutter.svg';
 import gcp from '../app/assets/svg/skills/gcp.svg';
 import gimp from '../app/assets/svg/skills/gimp.svg';
 import git from '../app/assets/svg/skills/git.svg';
-import go from '../app/assets/svg/skills/go.svg';
 import graphql from '../app/assets/svg/skills/graphql.svg';
 import haxe from '../app/assets/svg/skills/haxe.svg';
 import html from '../app/assets/svg/skills/html.svg';
@@ -60,7 +58,6 @@ import react from '../app/assets/svg/skills/react.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
 import sketch from '../app/assets/svg/skills/sketch.svg';
-import strapi from '../app/assets/svg/skills/strapi.svg';
 import svelte from '../app/assets/svg/skills/svelte.svg';
 import swift from '../app/assets/svg/skills/swift.svg';
 import tailwind from '../app/assets/svg/skills/tailwind.svg';
@@ -216,8 +213,6 @@ export const skillsImage = (skill) => {
       return blender;
     case 'fastify':
       return fastify;
-    case 'figma':
-      return figma;
     case 'flutter':
       return flutter;
     case 'haxe':
