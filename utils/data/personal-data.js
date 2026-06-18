@@ -13,7 +13,7 @@ export const personalData = {
   twitter: "",
   stackOverflow: "",
   leetcode: "https://leetcode.com/u/Sameer842000/",
-  devUsername: "said7388",
+  devUsername: "MohammadSameer08",
   resume:
     "https://drive.google.com/file/d/1QHsL8GBji_GSOY1UOcuLEPjkLz-QvVsw/view?usp=sharing",
 };
