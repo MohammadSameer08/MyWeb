@@ -17,7 +17,7 @@ export const projectsData = [
     tools: ["ReactJS", "REST APIs", "TMDB API"],
     role: "Frontend Developer",
     code: "",
-    demo: "",
+    demo: "https://github.com/MohammadSameer08/Movie-List",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const projectsData = [
       "Nodemailer",
     ],
     role: "Backend Developer",
-    code: "",
+    code: "https://github.com/MohammadSameer08/ProjectCamp",
     demo: "",
   },
 ];
