@@ -16,8 +16,8 @@ export const projectsData = [
       "Developed a multi-page React application integrated with TMDB API for real-time movie data retrieval. Implemented search functionality, detailed movie views, and watchlist management features. Managed client-side state to support personalized user experience including saved and watched movie tracking.",
     tools: ["ReactJS", "REST APIs", "TMDB API"],
     role: "Frontend Developer",
-    code: "",
-    demo: "https://github.com/MohammadSameer08/Movie-List",
+    code: "https://github.com/MohammadSameer08/Movie-List",
+    demo: "",
   },
   {
     id: 3,

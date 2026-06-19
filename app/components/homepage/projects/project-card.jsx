@@ -1,6 +1,8 @@
 // @flow strict
 
 import * as React from 'react';
+import Link from 'next/link';
+import { FaCode, FaPlay } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -10,15 +12,33 @@ function ProjectCard({ project }) {
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
-      <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-        <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
+      <div className="px-4 lg:px-8 py-3 lg:py-5 relative flex items-center justify-between">
+        <div className="flex flex-row space-x-1 lg:space-x-2">
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+        <p className="flex-1 text-center text-[#16f2b3] text-base lg:text-xl">
           {project.name}
         </p>
+        <div className="flex gap-3">
+          {project.demo && (
+            <Link
+              href={project.demo}
+              target='_blank'
+              className="flex justify-center items-center w-8 h-8 rounded-full border-2 border-[#16f2b3] text-[#16f2b3] hover:bg-[#0a0d37] hover:text-violet-600 hover:border-violet-600 transition-all duration-300 hover:scale-110">
+              <FaPlay size={14} />
+            </Link>
+          )}
+          {project.code && (
+            <Link
+              href={project.code}
+              target='_blank'
+              className="flex justify-center items-center w-8 h-8 rounded-full border-2 border-[#16f2b3] text-[#16f2b3] hover:bg-[#0a0d37] hover:text-violet-600 hover:border-violet-600 transition-all duration-300 hover:scale-110">
+              <FaCode size={14} />
+            </Link>
+          )}
+        </div>
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
