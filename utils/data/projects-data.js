@@ -21,16 +21,15 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "ProjectCamp - Interview Preparation Guide",
+    name: "ProjectCamp - Backend Application",
     description:
-      "ProjectCamp is a backend application built using Node.js, Express.js, and MongoDB that provides comprehensive interview preparation features including user registration, user authentication with JWT-based authorization, email verification, password reset functionality, and refresh token mechanism for secure session management.",
+      "Built a scalable RESTful API backend for a project management system using Node.js, Express, and MongoDB. Implemented JWT authentication, role-based access control, email verification, and complete project/task management features with MongoDB aggregation pipelines for optimized queries.",
     tools: [
       "Node.js",
       "Express.js",
       "MongoDB",
       "Mongoose",
       "JWT",
-      "Bcrypt",
       "Nodemailer",
     ],
     role: "Backend Developer",
