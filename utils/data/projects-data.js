@@ -36,6 +36,27 @@ export const projectsData = [
     code: "https://github.com/MohammadSameer08/ProjectCamp",
     demo: "",
   },
+  {
+    id: 4,
+    name: "Cloudinary SaaS - Video & Social Media Upload Platform",
+    description:
+      "Developed a modern full-stack SaaS web application for uploading, managing, and sharing videos and social media content with Cloudinary integration. Built with Next.js 16 and TypeScript, featuring secure authentication with Clerk, PostgreSQL database with Prisma ORM, automated video compression, and preset social media image creation for Instagram, Twitter, and Facebook. Implemented responsive dark-theme UI with Tailwind CSS and DaisyUI for seamless user experience.",
+    tools: [
+      "Next.js 16",
+      "TypeScript",
+      "React 19",
+      "Tailwind CSS 4",
+      "DaisyUI",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Clerk",
+      "Cloudinary",
+      "Axios",
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/MohammadSameer08/cloudinary-saas-youtube",
+    demo: "",
+  },
 ];
 
 // Do not remove any property.

@@ -16,4 +16,5 @@ export const personalData = {
   devUsername: "MohammadSameer08",
   resume:
     "https://drive.google.com/file/d/1QHsL8GBji_GSOY1UOcuLEPjkLz-QvVsw/view?usp=sharing",
+  portfolio: "https://github.com/MohammadSameer08/mdsameer.github.io",
 };
